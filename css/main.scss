@@ -1,0 +1,310 @@
+
+body{
+    width: 100vw;
+    top: 0;
+    box-sizing: border-box;
+}
+section:nth-child(odd){
+    background: #ddd;
+}
+
+
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.788)), url(/img/home3.jpg);    background-size: cover;
+    margin-bottom: 2em;
+    filter: blur(0.03px);
+    background-position: 100% 100%;
+     background-repeat: no-repeat;
+     position: relative;
+     height: 100vh;
+     width: 100vw;
+    #top-header{
+    max-width: 100%;
+    // height: 800px; height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.685);
+    padding-top: 1.5em; 
+    padding-right: 1em;
+    padding-left: 1em;
+    
+    
+    // background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.54)), url(/img/home3.jpg);    background-size: cover;
+    // margin-bottom: 2em;
+    // filter: blur(0.03px);
+    top: 0;
+    object-fit: top;
+     color: white;
+    
+    
+    
+    .social-icon{
+         max-width:100%;  
+         margin-top: 1em; 
+    }
+    .social-icon svg{
+        width: 25px;
+        margin-right: 1em;
+        fill: #ddd;
+         border-radius: 50%;
+    }
+    
+
+     h2{
+         font-weight: lighter;
+         letter-spacing: 0.1em;
+     }
+     .logo{
+            margin-top: -2.2em;
+     
+     #bold{
+        font-family: 'Berkshire Swash', cursive;
+        border-bottom: 1px solid #fff;
+        font-weight: bolder;
+        font-size: 1.5em;
+        
+
+     }
+    }
+   .contacts{
+       max-width: 100%;
+       display:flex;
+       flex-direction: row;
+       float: right;
+       margin-right: -11em;
+       
+       svg{
+           height: 60px;
+           
+           width: 23px;
+            fill: rgba(255, 255, 255, 0.788);
+           margin-right: 1.1em;
+            border-radius: 50%;
+
+       }
+       h4{
+        width: 300px;
+        margin-right: 1em;
+        fill: #ddd;
+         
+       }
+   }
+   .contacts::after{
+    content: "";
+    clear: both;
+    display: table;
+   }
+}
+
+   #bottom-header{
+       width: 100%;
+       color: white;
+       
+      
+       ul{
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+        list-style: none;
+    
+       li a{
+            color: #fff;
+            margin-right: 4em;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 0.9em;
+            text-decoration: none;
+        }
+        a:hover{
+            color:#ff7a2d91;
+        }
+       }
+   }
+   #intro{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       color: rgba(255, 255, 255, 0.726);
+       margin: 9em;
+    
+       h1{
+        font-family: 'Codystar', cursive;
+         font-size: 2.9em;
+         margin-left:-4.7em; 
+       }
+
+       p{
+           font-size: 1.25em;
+           font-family: 'Tenali Ramakrishna', sans-serif;
+           margin-top: -1.5em;
+           margin-left: -10em;
+           width: 33%;
+           margin-bottom: -2em;
+           display: flex;
+           justify-content: stretch;
+       }
+   }
+    
+}
+
+
+#about{
+   
+    #img-about{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+
+        img{
+            border: 5px solid maroon;
+            width: 400px;
+            height: 550px;
+        }
+    }
+        #description{
+            width: 26%;
+            margin-right:  2em;
+            margin-left: 2em;
+            padding-top: 1em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+
+
+            h3{
+                text-transform: uppercase;
+                font-size: 1.5em;
+                margin-bottom: -0.8em;
+              
+                
+            }
+            p{
+                 text-align: justify;
+                 font-size: 1.2em;
+                 line-height: 25pt;
+                 margin:0;
+            }
+
+            #orange-text{
+                color:#ff7b2d;
+            }
+        }
+    }
+//i will be using it in all sction so i have put it outside 
+
+.title{
+        width:100%;
+        display: flex;
+        justify-content: center;
+
+        h2{
+
+            text-transform: uppercase;
+            color: #ff7b2d;
+            font-size: 2.2em;
+            font-weight: bold;
+            font-family: 'Tenali Ramakrishna', sans-serif;
+            line-height: 1.9em;
+            letter-spacing: 0.09em
+            
+        }
+        #interior{
+            // border-bottom: 3px solid #000;
+            color: black;
+            text-decoration: underline;
+            
+
+        }
+    }
+
+#services{
+    width: 100%;
+    margin-top:7em;
+
+}
+
+#gallery{
+    width: 100%;
+    margin: 2em auto;
+    padding: 1em auto;
+      
+    // #title{
+    //     margin-top: 5em;
+    // }
+  
+    #portifolio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: center;
+        align-content: center;
+        margin-top:-1.5em;
+        
+    
+      
+        #img-col {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+
+
+    img{
+        border: 2px solid #464246e1;
+        border-radius: 5%;
+             width: 260px;
+             height: 280px;
+        //     flex-grow: 2;
+        //     flex: 1 1 30%;
+        // width: 33%;
+        // height: 100px;
+            margin: 1em 1em;
+    }
+}
+}
+
+#stats{
+    width: 100%;
+
+    #stat-icon{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1em 1em;
+
+        #icon{
+            width: 160px;
+            height: 120px;
+            display: flex;
+            border-radius: 50%;
+            border: transparent;
+            margin: auto 2em;
+            background-color: #ff7b2d;
+            flex-direction: column;
+            text-align: center;
+            padding:1em 0;
+            
+            #icon-desc{
+                color: white;
+                text-transform: uppercase;
+                font-size: 1.5em;
+                font-family: 'Tenali Ramakrishna', sans-serif;
+                padding-block-start: -4em;
+                margin-top: -1em;
+                
+                p{
+                    margin-top:-1em;
+                }
+            }
+        }
+    }
+}
