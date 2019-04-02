@@ -279,6 +279,7 @@ header {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        font-weight: 500;
         padding: 1em 1em;
 
         #icon{
@@ -292,9 +293,10 @@ header {
             flex-direction: column;
             text-align: center;
             padding:1em 0;
+            font-weight: 900;
             
             #icon-desc{
-                color: white;
+                color: rgba(255, 255, 255, 0.836);
                 text-transform: uppercase;
                 font-size: 1.5em;
                 font-weight: 400;
@@ -303,7 +305,15 @@ header {
                 margin-top: -1em;
                 
                 p{
-                    margin-top:-1em;
+                    margin-top:-2.6em;
+                  // padding-top: 1em;
+                    font-weight: 500;
+                    font-size: 1.5em;
+                }
+                h5{
+                    margin-top: 0.6em;
+                    font-weight: 500;
+                    font-size: 1.6em; 
                 }
             }
         }
