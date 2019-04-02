@@ -320,6 +320,7 @@ header #intro p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-weight: 500;
   padding: 1em 1em;
 }
 
@@ -339,10 +340,11 @@ header #intro p {
           flex-direction: column;
   text-align: center;
   padding: 1em 0;
+  font-weight: 900;
 }
 
 #stats #stat-icon #icon #icon-desc {
-  color: white;
+  color: rgba(255, 255, 255, 0.89);
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: 400;
@@ -353,6 +355,14 @@ header #intro p {
 }
 
 #stats #stat-icon #icon #icon-desc p {
-  margin-top: -1em;
+  margin-top: -2.6em;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+#stats #stat-icon #icon #icon-desc h5 {
+  margin-top: 0.6em;
+  font-weight: 500;
+  font-size: 1.6em;
 }
 /*# sourceMappingURL=main.css.map */
