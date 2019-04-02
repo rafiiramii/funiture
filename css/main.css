@@ -344,7 +344,7 @@ header #intro p {
 }
 
 #stats #stat-icon #icon #icon-desc {
-  color: rgba(255, 255, 255, 0.836);
+  color: rgba(255, 255, 255, 0.89);
   text-transform: uppercase;
   font-size: 1.5em;
   font-weight: 400;
