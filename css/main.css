@@ -345,6 +345,7 @@ header #intro p {
   color: white;
   text-transform: uppercase;
   font-size: 1.5em;
+  font-weight: 400;
   font-family: 'Tenali Ramakrishna', sans-serif;
   -webkit-padding-before: -4em;
           padding-block-start: -4em;
