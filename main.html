@@ -90,6 +90,36 @@
     <div class="title ">
         <h2> <span id="interior">Interior</span> Design</h2>
         </div>
+
+        <div class="tab">
+            <button class="tablinks" onmouseover="openDesign(event, 'SoftFurniture')">Soft Furniture</button>
+            <button class="tablinks" onmouseover="openDesign(event, 'Bathrooms')">Bathrooms</button>
+            <button class="tablinks" onmouseover="openDesign(event, 'ClassicSeries')">Classic Series</button>
+            <button class="tablinks" onmouseover="openDesign(event, 'ComfortableChairs')">Comfortable Chairs</button>
+        </div>
+
+        <div id="SoftFurniture" class="tabcontent">
+            <img src="/img/chair.jpg" class="design-img">
+            <h3>SOFT FURNITURE</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maxime eaque nihil cupiditate officia perspiciatis itaque ducimus iure consequuntur esse aspernatur iste pariatur consectetur temporibus dolorem beatae reprehenderit, nesciunt at?</p>
+        </div>
+
+        <div id="Bathrooms" class="tabcontent">
+                <img src="/img/chair.jpg" class="design-img">
+                <h3>BATHROOMS</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maxime eaque nihil cupiditate officia perspiciatis itaque ducimus iure consequuntur esse aspernatur iste pariatur consectetur temporibus dolorem beatae reprehenderit, nesciunt at?</p>
+            </div>
+            <div id="ClassicSeries" class="tabcontent">
+                    <img src="/img/chair.jpg" class="design-img">
+                    <h3>CLASSIC SERIES</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maxime eaque nihil cupiditate officia perspiciatis itaque ducimus iure consequuntur esse aspernatur iste pariatur consectetur temporibus dolorem beatae reprehenderit, nesciunt at?</p>
+                </div>
+                <div id="ComfortableChairs" class="tabcontent">
+                        <img src="/img/chair.jpg" class="design-img" >
+                        <h3>COMFORTABLE CHAIRS</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut maxime eaque nihil cupiditate officia perspiciatis itaque ducimus iure consequuntur esse aspernatur iste pariatur consectetur temporibus dolorem beatae reprehenderit, nesciunt at?</p>
+                    </div>
+                    <div class="clearfix"></div>
 </section>
 
 <section id="gallery">
@@ -182,6 +212,32 @@
 
 
         </div>
+        
     </section>
+    <!-- <script type="text/javascript" src="js/main.js"></script> -->
+    <!-- <script>
+function openDesign(evt, designName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(designName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script> -->
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
 </body>
 </html>

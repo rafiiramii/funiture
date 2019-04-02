@@ -261,6 +261,64 @@ header #intro p {
   margin-top: 7em;
 }
 
+#services .tab {
+  border: 1px solid #ccc;
+  width: 30%;
+  height: 300px;
+}
+
+#services .tab button {
+  display: block;
+  color: rgba(0, 0, 0, 0.829);
+  background-color: inherit;
+  padding: 22px 9em;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: justify;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+#services .tab button:hover {
+  background-color: rgba(255, 255, 255, 0.815);
+  color: #ff7b2d;
+}
+
+#services .tab button.active {
+  background-color: #fff;
+}
+
+#services .design-img {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+#services .tabcontent {
+  float: right;
+  padding: 0px 12px;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: none;
+}
+
+#services .clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 #gallery {
   width: 100%;
   margin: 2em auto;
