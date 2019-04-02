@@ -306,6 +306,7 @@ header #intro p {
 
 #stats {
   width: 100%;
+  padding-bottom: 3em;
 }
 
 #stats #stat-icon {
