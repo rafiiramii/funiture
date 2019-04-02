@@ -226,6 +226,77 @@ header {
 #services{
     width: 100%;
     margin-top:7em;
+      
+    .tab{
+       // float: left;
+        border: 1px solid #ccc;
+        width: 30%;
+        //background-color: #ff7b2d;
+        height: 300px;
+    }
+   
+    .tab button {
+        display: block;
+        color: rgba(0, 0, 0, 0.829);
+        background-color: inherit;
+        padding: 22px 9em;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align:justify;
+        cursor: pointer;
+        font-size: 17px;
+
+    }
+   
+    .tab button:hover{
+         background-color: rgba(255, 255, 255, 0.815);
+         color: #ff7b2d;
+        
+       
+    }
+
+    // .tab button:after{
+    //     content: " ";
+    //     position: absolute;
+    //     left: 100%;
+    //     top: 50%;
+    //     margin-top: -13px;
+    //     border-left: 0;
+    //     border-bottom: 13px solid transparent;
+    //     border-top: 13px solid transparent;
+    //     border-left: 10px solid #5A55A3;
+    // }
+
+    .tab button.active{
+        background-color: #fff;
+    }
+
+     .design-img{
+         width: 300px;
+         height: 300px;
+         border: 2px solid black;
+         border-radius: 50%;
+     }
+
+    .tabcontent{
+        float: right;
+        padding: 0px 12px;
+       // border: 1px solid #fff;
+        width: 70%;
+        border-left: none;
+        height: 300px;
+        margin: 0px;
+        display: flex;
+        flex-direction: row;
+        display: none;
+    }
+
+    .clearfix:after{
+        content: "";
+        clear: both;
+        display: table;
+    }
 
 }
 
